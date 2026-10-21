@@ -76,3 +76,37 @@ and available disk space are collected separately.
 
 This report uses a personal Windows computer for an
 educational exercise. No production systems were accessed.
+
+
+## Process-Level Analysis
+
+Task Manager was inspected to identify processes using
+significant system resources.
+
+| Process | Observed Memory Usage |
+|---|---:|
+| Google Chrome | 1,841.9 MB |
+| WhatsApp | 783.3 MB |
+| ChatGPT | 484.8 MB |
+| Intel System Usage Report | 165.9 MB |
+| Microsoft Defender Antimalware | 148.1 MB |
+
+At the time of capture, overall CPU utilisation was 11%,
+memory utilisation was 66%, and disk activity was 0%.
+
+Google Chrome was the largest memory consumer among the
+visible processes. This alone does not establish that
+Chrome caused a performance problem.
+
+## Updated Assessment
+
+No confirmed root cause has been identified.
+
+If slowness is reported, the next step is to reproduce
+the issue, observe resource utilisation during the
+problem, and investigate the relevant application or
+system component before making changes.
+
+No processes were terminated and no system settings
+were changed during this assessment.
+
